@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var savedColour = getCookie("background_colour");
 
     if (savedColour) {
-
         document.body.style.backgroundColor = savedColour;
     }
 });
