@@ -258,7 +258,7 @@ main {
     align-self: center;
 }
 #accordionCorrection {
-    padding: 10px 20px 0px !important;
+    padding: 10px 50px 0px 40px !important;
 }
 .accordion-button:not(.collapsed) {
     color: var(--bs-accordion-active-color);
@@ -269,7 +269,7 @@ main {
     box-shadow: none !important;
 }
 .accordion-body {
-    padding: 5px 20px 0px !important;
+    padding: 5px 43px 0px !important;
 }
 #accordionFlushExample {
     width: 100%;
@@ -288,7 +288,7 @@ main {
     justify-content: center;
 }
 /*
-    Home Page Top
+    Home Page Bottom
 */
 hr.divider {
     border: 5px solid #b9b9b9;
