@@ -239,13 +239,18 @@ main {
   background: var(--clr-black);
 }
 
-
+/*
+    HOME PAGE
+*/
+.card-body {
+    display: flex;
+}
 /* 
-HOME PAGE LEFT
+    HOME PAGE LEFT
 */
 .user-img {
     width: 60%;
-    height: 60%;
+    height: 67%;
     border-radius: 50%;
     border: 1px solid rgb(255 255 255 / 42%);
     padding: 3px;
@@ -264,13 +269,21 @@ HOME PAGE LEFT
     box-shadow: none !important;
 }
 .accordion-body {
-    padding: 5px 20px 16px !important;
+    padding: 5px 20px 0px !important;
 }
 #accordionFlushExample {
     width: 100%;
 }
 #ProjectsHome {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+}
+.dark-background {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+.center-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
