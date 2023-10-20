@@ -246,7 +246,7 @@ main {
     display: flex;
 }
 /* 
-    HOME PAGE LEFT
+    HOME PAGE TOP
 */
 .user-img {
     width: 60%;
@@ -286,4 +286,12 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+/*
+    Home Page Top
+*/
+hr.divider {
+    border: 5px solid #b9b9b9;
+    border-radius: 5px;
+    width: 95%;
 }
