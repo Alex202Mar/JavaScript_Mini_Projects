@@ -202,6 +202,19 @@ main {
   place-items: center;
 }
 
+/*
+    COLOUR FLIPPER
+*/
+.colourFlipper {
+    text-align: center;
+}
+.colourFlipper h2 {
+    background: var(--clr-black);
+    color: var(--clr-white);
+    padding: 1rem;
+    border-radius: var(--radius);
+    margin-bottom: 2.5rem;
+}
 .color {
   color: var(--clr-primary-5);
 }
@@ -237,6 +250,7 @@ HOME PAGE LEFT
     border: 1px solid rgb(255 255 255 / 42%);
     padding: 3px;
     margin-right: 10px;
+    align-self: center;
 }
 #accordionCorrection {
     padding: 10px 20px 0px !important;
@@ -254,4 +268,9 @@ HOME PAGE LEFT
 }
 #accordionFlushExample {
     width: 100%;
+}
+#ProjectsHome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
