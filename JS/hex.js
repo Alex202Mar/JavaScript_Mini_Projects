@@ -1,18 +1,9 @@
-const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-const btn = document.getElementById("Hexbtn");
-const color = document.querySelector(".color");
+// Assuming you have a button with ID "generateColourBtn" on your second page
+const generateColourBtn = document.getElementById("generateColourBtn");
 
-btn.addEventListener("click", function () {
-  let hexColor = "#";
-  for (let i = 0; i < 6; i++) {
-    hexColor += hex[getRandomNumber()];
-  }
-  // console.log(hexColor);
+generateColourBtn.addEventListener("click", function() {
+    const hexColour = generateRandomColour();
 
-  color.textContent = hexColor;
-  document.body.style.backgroundColor = hexColor;
+    // Set the hexColour as a cookie
+    document.cookie = `background_Colour=${hexColour}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
 });
-
-function getRandomNumber() {
-  return Math.floor(Math.random() * hex.length);
-}
