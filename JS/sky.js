@@ -1,9 +1,9 @@
 
 function changeImage() {
     var image = document.getElementById('ImgSwap');
-    if (image.src.match("/JavaScript_Mini_Projects/Assets/AlexPFP.jpeg")) {
-        image.src = "/JavaScript_Mini_Projects/Assets/sky.jpg";
+    if (image.src.match("/Assets/AlexPFP.jpeg")) {
+        image.src = "/Assets/sky.jpg";
     } else {
-        image.src = "/JavaScript_Mini_Projects/Assets/AlexPFP.jpeg";
+        image.src = "/Assets/AlexPFP.jpeg";
     }
 }

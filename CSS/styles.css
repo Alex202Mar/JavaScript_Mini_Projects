@@ -291,7 +291,12 @@ main {
     Home Page Bottom
 */
 hr.divider {
-    border: 5px solid #b9b9b9;
+    border: 2px solid #b9b9b9;
     border-radius: 5px;
     width: 95%;
 }
+
+.Container-Spacing {
+  margin-top: 4%;
+}
+
